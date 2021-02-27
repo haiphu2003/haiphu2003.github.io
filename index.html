@@ -53,10 +53,106 @@
             </div>
         </div>
     </div>
-    <!-- partial -->
+    <!-- Henry Nguyễn -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="./script.js"></script>
 
 </body>
+<div class="float-contact">
+    <div class="face">
+        <a href="https://www.facebook.com/haiphu.nguyen.940/" target="blank">
+            <img alt="facebook" src="image/iconfb.png" style="width: 40px; height: 40px;" />
+        </a>
+    </div>
+
+    <div class="youtube">
+        <a href="https://www.youtube.com/channel/UCqi9jJs4xbjMmIjyjKCYP6w" target="blank">
+            <img alt="youtube" src="image/youtubeicon.png" style="width: 40px; height: 40px;" />
+        </a>
+    </div>
+
+    <div class="zalo">
+        <a href="https://zalo.me/0352688455" target="blank">
+            <img alt="zalo" src="image/zaloicon.jpg" style="width: 40px; height: 40px;" />
+        </a>
+    </div>
+</div>
+
+
+<style type="text/css">
+    @media (min-width: 1025px) {
+        .float-contact {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 99999;
+            text-align: left;
+        }
+        .youtube,
+        .zalo,
+        .face {
+            overflow: hidden;
+            border: none !important;
+            background: none !important;
+        }
+        .youtube a,
+        .zalo a,
+        .face a {
+            display: block;
+            margin-bottom: 6px;
+        }
+        .youtube a:hover,
+        .zalo a:hover,
+        .face a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .youtube a img,
+        .zalo a img,
+        .face a img {
+            display: block;
+            margin: auto;
+        }
+        .youtube a,
+        .zalo a,
+        .face a {
+            color: #000;
+            text-align: center;
+            display: block;
+            font-size: 10px;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .float-contact {
+            position: fixed;
+            bottom: 0px;
+            z-index: 99999;
+            display: flex;
+            width: 100%;
+            height: 63px;
+        }
+        .face,
+        .youtube,
+        .zalo {
+            width: 25%;
+            text-align: center;
+            margin: auto;
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+        }
+        .face a img,
+        .youtube a img,
+        .zalo a img {
+            display: block;
+            margin: 5px auto 5px;
+        }
+        .face a,
+        .youtube .zalo a {
+            color: #fff;
+            font-size: 13px;
+        }
+    }
+</style>
 
 </html>

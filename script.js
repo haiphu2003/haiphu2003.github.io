@@ -52,6 +52,54 @@ $(function() {
             url: "Musics/missyou.mp3",
             picture: "./image/missyou"
         },
+        {
+            artist: "Kamishiraishi Mone",
+            name: "Nandemonaiya",
+            url: "Musics/nandemonaiya.mp3",
+            picture: "./image/missyou"
+        },
+        {
+            artist: "BEAUZ",
+            name: "Memories",
+            url: "Musics/memories.mp3",
+            picture: "./image/missyou"
+        },
+        {
+            artist: "Justin Bieber",
+            name: "Love Yourself",
+            url: "Musics/luvself.mp3",
+            picture: "./image/missyou"
+        },
+        {
+            artist: "Chihiro",
+            name: "Zurui Yo",
+            url: "Musics/zuruiyo.mp3",
+            picture: "./image/missyou"
+        },
+        {
+            artist: "NCS Release",
+            name: "Lost Sky",
+            url: "Musics/lostsky.mp3",
+            picture: "./image/missyou"
+        },
+        {
+            artist: "OnePepublic",
+            name: "Counting Stars",
+            url: "Musics/CountingStars.mp3",
+            picture: "./image/missyou"
+        },
+        {
+            artist: "Vexento",
+            name: "Lonely Dance",
+            url: "Musics/lonelydance.mp3",
+            picture: "./image/missyou"
+        },
+        {
+            artist: "DEAMN",
+            name: "SAVE ME",
+            url: "Musics/saveme.mp3",
+            picture: "./image/missyou"
+        },
     ];
 
     function shuffle(a) {
